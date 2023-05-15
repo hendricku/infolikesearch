@@ -1,0 +1,20 @@
+{
+    "name": "hendrickcastro/info",
+    "description": "php finals",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Hendrickcastro\\Info\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hendrick"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "google/cloud-firestore": "^1.32"
+    }
+}
